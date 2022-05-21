@@ -1,4 +1,5 @@
 exports.handler = async event => {
+  console.log("hey");
   if (event.queryStringParameters.fbclid) {
     return {
       statusCode: 301,
